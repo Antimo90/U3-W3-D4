@@ -14,17 +14,17 @@ const MyNavbar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto d-flex align-items-center">
               <Link
+                as={Link}
                 to="/"
                 className="title fs-3 text-dark-emphasis nav-link"
-                eventKey="link-1"
               >
                 Home
               </Link>
 
               <Link
+                as={Link}
                 to="/favourites"
                 className="text-dark-emphasis title fs-3 nav-link"
-                eventKey="link-2"
               >
                 Favourites Works
               </Link>
